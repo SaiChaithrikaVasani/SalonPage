@@ -1,0 +1,183 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+.purple-section {
+    background-color: #aa71fa;
+  }
+  
+  .colored-section {
+    background-color: #aa71fa;
+    color:white;
+    padding-left:1px;
+  }
+  
+  .white-section{
+    background-color: white;
+  }
+  .big-heading {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  #title {
+    text-align: left;
+  }
+  
+  .container-fluid {
+    padding: 3% 10% 9%;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+  }
+  .book_link:visited,.book_link:hover{
+    outline:none;
+    color:inherit;
+    text-decoration: none;
+    
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .image-iphone {
+    width: 90%;
+    position: absolute;
+    right: 10%;
+  }
+  
+  #features {
+    padding: 4% 15%;
+    position: relative;
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .feature-box {
+    padding: 5%;
+  }
+  
+  .feature-icon {
+    font-size: 4rem;
+  }
+  
+  .testimonials-text {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 1.5;
+  }
+  
+  .testimonials-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 1rem;
+  }
+  
+  #press {
+    padding-bottom: 3%;
+  }
+  
+  .press-img {
+    width: 15%;
+    height:150px;
+    margin: 20px 15px;
+  }
+  .press-image {
+    width: 25%;
+    height:150px;
+    padding: 1px;
+  }
+  
+  .carousel-item {
+    padding: 8% 7%;
+  }
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  .pricing-coloumn {
+    padding: 3% 2%;
+  }
+  
+  .pricing-text {
+    font-weight: 700;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .copyright{
+    color:white;
+  }
+  
+  #cta {
+    padding: 6% 8%;
+  }
+  
+  #footer {
+    color: white;
+    padding: 5% 15%;
+  }
+  
+  .footer-logo {
+    margin: 15px 10px;
+  }
+  @media only screen and (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .mobile {
+    padding-bottom: 15px;
+  }
+}
+
+
+
+
+
