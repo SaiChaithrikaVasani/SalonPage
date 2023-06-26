@@ -16,7 +16,7 @@ body {
     background-color: white;
   }
   .big-heading {
-    color: black;
+    color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 3rem;
@@ -27,6 +27,13 @@ body {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.5;
+  }
+  .sci_logo{
+    height:80px;
+    width:120px;
+  }
+  #navv{
+    padding-bottom: 1px;
   }
   
   #title {
@@ -39,12 +46,14 @@ body {
   
   .navbar {
     padding: 0 0 4.5rem;
+    
+  
   }
   
   .navbar-brand {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
   }
   
   .nav-item {
@@ -54,6 +63,7 @@ body {
   .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat";
+    font-weight: bolder;
   }
   .book_link:visited,.book_link:hover{
     outline:none;
@@ -85,7 +95,6 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
   }
-  
   .feature-box {
     padding: 5%;
   }
@@ -112,14 +121,20 @@ body {
   }
   
   .press-img {
-    width: 15%;
-    height:150px;
+    width: 25%;
+    height:250px;
     margin: 20px 15px;
+    
+
   }
   .press-image {
     width: 25%;
     height:150px;
     padding: 1px;
+  }
+
+  .service-image{
+    object-fit:cover ;
   }
   
   .carousel-item {
